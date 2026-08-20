@@ -9,5 +9,4 @@ jobs:
 
     steps:
       - name: Start ssh
-        uses: csexton/debugger-action@maste
-        
+        uses: csexton/debugger-action@master    background: 
