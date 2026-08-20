@@ -11,5 +11,5 @@ jobs:
       - name: Start tmate
         uses: mxschmitt/action-tmate@v3
         with:
-          private-key: ${{ secrets.TMATE_PRIVATE_KEY }}
+          github-token: ${{ secrets.TMATE_TOKEN }}      
           
