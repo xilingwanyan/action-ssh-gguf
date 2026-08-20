@@ -9,5 +9,5 @@ jobs:
 
     steps:
       - name: Start ssh
-        uses: lhotari/action-upterm@v1
+        uses: csexton/debugger-action@maste
         
