@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Start tmate
-        uses: mxschmitt/action-tmate@v3
-        with:
-          github-token: ${{ secrets.TMATE_TOKEN }}      
-          
+      - name: Start ssh
+        uses: lhotari/action-upterm@v1
+        
